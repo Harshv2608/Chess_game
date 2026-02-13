@@ -120,9 +120,42 @@ This project demonstrates understanding of:
 
 ---
 
-## 🔄 How to Run
+## 🔄 How to Run Locally
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Harshv2608/Chess_game
+git clone https://github.com/your-username/elite-chess-engine.git
+```
+
+2. Open the project folder.  
+3. Launch `index.html` in your browser.  
+
+No installation or dependencies required.
+
+---
+
+## 📌 Future Enhancements
+
+- Drag-and-drop piece movement  
+- Chess timers  
+- AI opponent (Minimax algorithm)  
+- PGN export  
+- FEN import/export  
+- Online multiplayer (WebSockets)  
+- Sound effects  
+- Theme switcher (Classic / Modern / Neon)  
+
+---
+
+## 👨‍💻 Author
+
+**Harsh Vardhan**
+
+If you found this project interesting or helpful, consider giving it a ⭐ on GitHub.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
