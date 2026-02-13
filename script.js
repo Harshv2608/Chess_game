@@ -53,7 +53,14 @@ function render(){
             sq.dataset.row = r;
             sq.dataset.col = c;
 
-            if(board[r][c]) sq.textContent = pieces[board[r][c]];
+            if(board[r][c]) {
+               sq.textContent = pieces[board[r][c]];
+               if(board[r][c][0] === "w")
+                   sq.classList.add("white-piece");
+               else
+                  sq.classList.add("black-piece");
+            }
+
 
             if(lastMove &&
                (lastMove.from[0]===r && lastMove.from[1]===c ||
